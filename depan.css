@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 20px;
+    background-image: url("pexels-designecologist-887349.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .container{
+        border: 2px solid black;
+        height: 400px;
+        width: 300px;
+        border-radius: 5px;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.8); /* White with 80% opacity */
+        border: 2px solid rgba(0, 0, 0, 0.5); /* Black border with 50% opacity */
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2)
+    }
+    
+    .box-img{
+        width: 300px;
+            height: 306px;
+            background-image: url("bf4184636a2b401cec4813a35d42df82.jpg"); /* Gantikan dengan laluan imej anda */
+            background-size: cover; /* Mengisi keseluruhan kotak */
+            background-position: center; /* Pusatkan imej */
+            border: 2px solid rgba(234, 224, 224, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(255, 255, 255); /* Warna teks */
+    }
+    button{
+        position: relative;
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        background: rgb(36,0,36);
+        background: linear-gradient(90deg, rgba(36,0,36,1) 0%, rgba(114,9,121,1) 52%, rgba(255,0,189,1) 100%);
+        top: 205px;
+        font-size: 18px;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
